@@ -1,0 +1,490 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" version="28.1.0">
+  <diagram name="第 1 页" id="R559-HdeC934LtWm_M7N">
+    <mxGraphModel dx="2954" dy="1777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3VB3d_pXGT31ES1VNs92-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="3VB3d_pXGT31ES1VNs92-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-4" value="&lt;span style=&quot;color: rgb(64, 64, 64); font-family: Menlo, &amp;quot;Roboto Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace, Inter, sans-serif; font-size: 14.0018px; font-weight: 600; text-align: left; text-wrap: wrap; background-color: rgb(236, 236, 236);&quot;&gt;systemReady()&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3VB3d_pXGT31ES1VNs92-2">
+          <mxGeometry x="-0.8418" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-1" value="ActivityManagerService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="40" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="170" as="sourcePoint" />
+            <mxPoint x="400" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-7" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3VB3d_pXGT31ES1VNs92-6">
+          <mxGeometry x="0.1015" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-11" value="&lt;span style=&quot;color: rgb(64, 64, 64); font-family: Menlo, &amp;quot;Roboto Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace, Inter, sans-serif; font-size: 14.0018px; font-weight: 600; text-align: left; text-wrap: wrap; background-color: rgb(236, 236, 236);&quot;&gt;startPersistentApps()&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3VB3d_pXGT31ES1VNs92-6">
+          <mxGeometry x="0.0554" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="3VB3d_pXGT31ES1VNs92-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="660.7999877929688" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-12" value="&lt;h4 style=&quot;font-weight: var(--ds-font-weight-strong); line-height: var(--ds-md-line-height); margin: calc(var(--ds-md-zoom)*16px)0 calc(var(--ds-md-zoom)*12px)0; color: rgb(64, 64, 64); text-align: start;&quot;&gt;&lt;span style=&quot;font-weight: 600; background-color: rgb(255, 255, 255);&quot;&gt;&lt;code style=&quot;font-weight: var(--ds-font-weight-strong); border-radius: 4px; padding: 0.15rem 0.3rem;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;NfcApplication&lt;/font&gt;&lt;/code&gt;&lt;/span&gt;&lt;/h4&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="40" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="180" as="sourcePoint" />
+            <mxPoint x="400" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="180" />
+              <mxPoint x="460" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-16" value="onCreate()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3VB3d_pXGT31ES1VNs92-15">
+          <mxGeometry x="-0.0147" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="674.75" y="1880" as="targetPoint" />
+            <mxPoint x="644.75" y="80.00000000000011" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-21" value="NfcService变量初始化" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3VB3d_pXGT31ES1VNs92-18">
+          <mxGeometry x="-0.3523" y="-2" relative="1" as="geometry">
+            <mxPoint x="7" y="-362" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-85" value="&amp;nbsp;mDeviceHost.doSetScreenState（）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3VB3d_pXGT31ES1VNs92-18">
+          <mxGeometry x="0.6724" y="-1" relative="1" as="geometry">
+            <mxPoint y="240" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-86" value="restoreSavedTech()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3VB3d_pXGT31ES1VNs92-18">
+          <mxGeometry x="0.6984" y="2" relative="1" as="geometry">
+            <mxPoint y="240" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-87" value="&amp;nbsp;applyRouting(true)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3VB3d_pXGT31ES1VNs92-18">
+          <mxGeometry x="0.7325" y="-3" relative="1" as="geometry">
+            <mxPoint y="240" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-88" value="&amp;nbsp;mCardEmulationManager.onNfcEnabled()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3VB3d_pXGT31ES1VNs92-18">
+          <mxGeometry x="0.7612" y="-1" relative="1" as="geometry">
+            <mxPoint y="240" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-89" value="&amp;nbsp;registerGlobalBroadcastsReceiver()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3VB3d_pXGT31ES1VNs92-18">
+          <mxGeometry x="0.7872" y="2" relative="1" as="geometry">
+            <mxPoint y="240" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-90" value="&amp;nbsp;mDeviceHost.setPowerSavingMode(false)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3VB3d_pXGT31ES1VNs92-18">
+          <mxGeometry x="0.8186" y="-3" relative="1" as="geometry">
+            <mxPoint y="240" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-17" value="&lt;h4 style=&quot;line-height: var(--ds-md-line-height); margin: calc(var(--ds-md-zoom)*16px)0 calc(var(--ds-md-zoom)*12px)0; color: rgb(64, 64, 64); text-align: start;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;NfcService&lt;/span&gt;&lt;/h4&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="40" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-19" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="270" as="sourcePoint" />
+            <mxPoint x="670" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-20" value="new NfcService()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3VB3d_pXGT31ES1VNs92-19">
+          <mxGeometry x="0.0308" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-22" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="290" as="sourcePoint" />
+            <mxPoint x="680" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="740" y="290" />
+              <mxPoint x="740" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-23" value="&amp;nbsp;executeTaskBoot()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3VB3d_pXGT31ES1VNs92-22">
+          <mxGeometry x="-0.0147" y="2" relative="1" as="geometry">
+            <mxPoint y="-24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-24" value="new EnableDisableTask().execute(TASK_BOOT)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3VB3d_pXGT31ES1VNs92-22">
+          <mxGeometry x="-0.0695" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-25" value="onOemPreExecute()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3VB3d_pXGT31ES1VNs92-22">
+          <mxGeometry x="0.1095" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-28" value="&amp;nbsp;enableInternal()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3VB3d_pXGT31ES1VNs92-22">
+          <mxGeometry x="0.2548" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-29" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="500" as="sourcePoint" />
+            <mxPoint x="940" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-30" value="mDeviceHost.initialize()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3VB3d_pXGT31ES1VNs92-29">
+          <mxGeometry x="-0.0091" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="3VB3d_pXGT31ES1VNs92-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="940" y="791.5999755859375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-31" value="&lt;h4 style=&quot;font-weight: var(--ds-font-weight-strong); line-height: var(--ds-md-line-height); margin: calc(var(--ds-md-zoom)*16px)0 calc(var(--ds-md-zoom)*12px)0; color: rgb(64, 64, 64); text-align: start;&quot;&gt;&lt;span style=&quot;font-weight: 600; background-color: rgb(255, 255, 255);&quot;&gt;&lt;code style=&quot;font-weight: var(--ds-font-weight-strong); border-radius: 4px; padding: 0.15rem 0.3rem;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;NativeNfcManager.java&lt;/font&gt;&lt;/code&gt;&lt;/span&gt;&lt;/h4&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="40" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-33" value="Initialize()" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="940" y="515" as="sourcePoint" />
+            <mxPoint x="940" y="585" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1000" y="515" />
+              <mxPoint x="1000" y="585" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-35" value="private native boolean doInitialize()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3VB3d_pXGT31ES1VNs92-33">
+          <mxGeometry x="0.2105" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-36" value="nfcManager_doInitialize(JNIEnv* e, jobject o)" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="940" y="610" as="sourcePoint" />
+            <mxPoint x="1250" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1250" y="1860" as="targetPoint" />
+            <mxPoint x="1270" y="70" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-40" value="initializeGlobalDebugEnabledFlag()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3VB3d_pXGT31ES1VNs92-38">
+          <mxGeometry x="0.5547" y="1" relative="1" as="geometry">
+            <mxPoint x="-3" y="-807" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-73" value="NFA_RegVSCback()&lt;div&gt;注册厂商特定回调函数&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3VB3d_pXGT31ES1VNs92-38">
+          <mxGeometry x="0.9026" y="-1" relative="1" as="geometry">
+            <mxPoint x="2" y="-702" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-74" value="NFA_EnableDtamode()&lt;div&gt;处于DTA模式，设置dta标签&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3VB3d_pXGT31ES1VNs92-38">
+          <mxGeometry x="0.9457" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="-682" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-79" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; RoutingManager::getInstance().initialize(getNative(e, o));&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; nativeNfcTag_registerNdefTypeHandler();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; NfcTag::getInstance().initialize(getNative(e, o));&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; HciEventManager::getInstance().initialize(getNative(e, o));&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; NativeWlcManager::getInstance().initialize(getNative(e, o));&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; NativeT4tNfcee::getInstance().initialize();&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3VB3d_pXGT31ES1VNs92-38">
+          <mxGeometry x="0.73" y="-2" relative="1" as="geometry">
+            <mxPoint y="84" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-80" value="NFA_SetRfDiscoveryDuration（）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3VB3d_pXGT31ES1VNs92-38">
+          <mxGeometry x="0.8593" y="1" relative="1" as="geometry">
+            <mxPoint x="9" y="58" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-81" value="doStartupConfig()&amp;nbsp; ？？" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3VB3d_pXGT31ES1VNs92-38">
+          <mxGeometry x="0.9154" y="1" relative="1" as="geometry">
+            <mxPoint x="19" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-37" value="&lt;h4 style=&quot;font-weight: var(--ds-font-weight-strong); line-height: var(--ds-md-line-height); margin: calc(var(--ds-md-zoom)*16px)0 calc(var(--ds-md-zoom)*12px)0; color: rgb(64, 64, 64); text-align: start;&quot;&gt;&lt;span style=&quot;font-weight: 600; background-color: rgb(255, 255, 255);&quot;&gt;&lt;code style=&quot;font-weight: var(--ds-font-weight-strong); border-radius: 4px; padding: 0.15rem 0.3rem;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;NativeNfcManager.cpp&lt;/font&gt;&lt;/code&gt;&lt;/span&gt;&lt;/h4&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="40" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-41" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1250" y="680" as="sourcePoint" />
+            <mxPoint x="1530" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-42" value="NfcAdaptation::GetInstance().Initialize()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3VB3d_pXGT31ES1VNs92-41">
+          <mxGeometry x="-0.1817" y="-1" relative="1" as="geometry">
+            <mxPoint x="22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="3VB3d_pXGT31ES1VNs92-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1530" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-43" value="&lt;h4 style=&quot;font-weight: var(--ds-font-weight-strong); line-height: var(--ds-md-line-height); margin: calc(var(--ds-md-zoom)*16px)0 calc(var(--ds-md-zoom)*12px)0; color: rgb(64, 64, 64); text-align: start;&quot;&gt;&lt;span style=&quot;font-weight: 600; background-color: rgb(255, 255, 255);&quot;&gt;&lt;code style=&quot;font-weight: var(--ds-font-weight-strong); border-radius: 4px; padding: 0.15rem 0.3rem;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot; face=&quot;Helvetica&quot;&gt;NfcAdaption.cpp&lt;/font&gt;&lt;/code&gt;&lt;/span&gt;&lt;/h4&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="40" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-45" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1250" y="960" as="sourcePoint" />
+            <mxPoint x="2200" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-46" value="NFA_Init(halFuncEntries&amp;nbsp;)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3VB3d_pXGT31ES1VNs92-45">
+          <mxGeometry x="0.0076" y="-1" relative="1" as="geometry">
+            <mxPoint x="4" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-47" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1250" y="840" as="sourcePoint" />
+            <mxPoint x="1530" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-48" value="NfcAdaptation::GetInstance().GetHalEntryFuncs()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3VB3d_pXGT31ES1VNs92-47">
+          <mxGeometry x="-0.0229" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-49" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1530" y="860" as="sourcePoint" />
+            <mxPoint x="1250" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-50" value="tHAL_NFC_ENTRY* halFuncEntries" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3VB3d_pXGT31ES1VNs92-49">
+          <mxGeometry x="0.0943" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3VB3d_pXGT31ES1VNs92-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1900" y="1140" as="targetPoint" />
+            <mxPoint x="1834.75" y="140" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1900" y="1030" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-55" value="gki_buffer_init()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3VB3d_pXGT31ES1VNs92-54">
+          <mxGeometry x="0.3016" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-56" value="gki_timer_init()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3VB3d_pXGT31ES1VNs92-54">
+          <mxGeometry x="0.3489" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-51" value="&lt;h4 style=&quot;line-height: var(--ds-md-line-height); margin: calc(var(--ds-md-zoom)*16px)0 calc(var(--ds-md-zoom)*12px)0; text-align: start; color: rgb(64, 64, 64);&quot;&gt;&lt;font color=&quot;#404040&quot;&gt;gki_ulinux.cc&lt;/font&gt;&lt;br&gt;&lt;/h4&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1820" y="40" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-52" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1530" y="720" as="sourcePoint" />
+            <mxPoint x="1900" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-53" value="&lt;div&gt;GKI_init();&lt;/div&gt;&lt;div&gt;&amp;nbsp; GKI_enable();&lt;/div&gt;&lt;div&gt;&amp;nbsp; GKI_create_task（）:NFCA_TASK,MMI_TASK：&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3VB3d_pXGT31ES1VNs92-52">
+          <mxGeometry x="-0.007" y="-6" relative="1" as="geometry">
+            <mxPoint x="1" y="-36" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="3VB3d_pXGT31ES1VNs92-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2200" y="1480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2200" y="700" />
+              <mxPoint x="2201" y="1320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-60" value="&amp;nbsp;nfa_sys_init()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3VB3d_pXGT31ES1VNs92-59">
+          <mxGeometry x="0.4572" y="1" relative="1" as="geometry">
+            <mxPoint y="-131" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-61" value="&amp;nbsp;nfa_dm_init()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3VB3d_pXGT31ES1VNs92-59">
+          <mxGeometry x="0.4862" y="1" relative="1" as="geometry">
+            <mxPoint y="-131" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-62" value="&amp;nbsp;nfa_rw_init()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3VB3d_pXGT31ES1VNs92-59">
+          <mxGeometry x="0.5249" relative="1" as="geometry">
+            <mxPoint y="-131" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-63" value="nfa_ce_init()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3VB3d_pXGT31ES1VNs92-59">
+          <mxGeometry x="0.5571" y="3" relative="1" as="geometry">
+            <mxPoint y="-131" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-64" value="nfa_ee_init()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3VB3d_pXGT31ES1VNs92-59">
+          <mxGeometry x="0.5894" y="-2" relative="1" as="geometry">
+            <mxPoint y="-131" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-65" value="&amp;nbsp;nfa_t4tnfcee_init()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3VB3d_pXGT31ES1VNs92-59">
+          <mxGeometry x="0.6361" y="2" relative="1" as="geometry">
+            <mxPoint y="-131" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-66" value="nfa_hci_init()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3VB3d_pXGT31ES1VNs92-59">
+          <mxGeometry x="0.6667" y="2" relative="1" as="geometry">
+            <mxPoint y="-131" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-67" value="&amp;nbsp;nfa_wlc_init()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3VB3d_pXGT31ES1VNs92-59">
+          <mxGeometry x="0.7054" y="2" relative="1" as="geometry">
+            <mxPoint y="-131" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-84" value="&amp;nbsp;nfa_sys_sendmsg（）{&amp;nbsp;&lt;div&gt;GKI_send_msg（）}&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3VB3d_pXGT31ES1VNs92-59">
+          <mxGeometry x="0.7642" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-58" value="&lt;h4 style=&quot;line-height: var(--ds-md-line-height); margin: calc(var(--ds-md-zoom)*16px)0 calc(var(--ds-md-zoom)*12px)0; text-align: start; color: rgb(64, 64, 64);&quot;&gt;&lt;font color=&quot;#404040&quot;&gt;nfa_dm_api.cc&lt;/font&gt;&lt;br&gt;&lt;/h4&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2130" y="40" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="3VB3d_pXGT31ES1VNs92-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2520" y="1560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-72" value="&lt;div&gt;/* NCI init */&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;nfc_cb.p_hal = p_hal_entry_tbl;&lt;/div&gt;&lt;div&gt;&amp;nbsp; nfc_cb.nfc_state = NFC_STATE_NONE;&lt;/div&gt;&lt;div&gt;&amp;nbsp; nfc_cb.nci_cmd_window = NCI_MAX_CMD_WINDOW;&lt;/div&gt;&lt;div&gt;&amp;nbsp; nfc_cb.nci_wait_rsp_tout = NFC_CMD_CMPL_TIMEOUT;&lt;/div&gt;&lt;div&gt;&amp;nbsp; nfc_cb.p_disc_maps = nfc_interface_mapping;&lt;/div&gt;&lt;div&gt;&amp;nbsp; nfc_cb.num_disc_maps = NFC_NUM_INTERFACE_MAP;&lt;/div&gt;&lt;div&gt;&amp;nbsp; nfc_cb.nci_ctrl_size = NCI_CTRL_INIT_SIZE;&lt;/div&gt;&lt;div&gt;&amp;nbsp; nfc_cb.reassembly = true;&lt;/div&gt;&lt;div&gt;&amp;nbsp; nfc_cb.nci_version = NCI_VERSION_UNKNOWN;&lt;/div&gt;&lt;div&gt;&amp;nbsp; GKI_init_timer_list(&amp;amp;nfc_cb.timer_queue);&lt;/div&gt;&lt;div&gt;&amp;nbsp; GKI_init_timer_list(&amp;amp;nfc_cb.quick_timer_queue);&lt;/div&gt;&lt;div&gt;&amp;nbsp; rw_init();&lt;/div&gt;&lt;div&gt;&amp;nbsp; ce_init();&lt;/div&gt;&lt;div&gt;&amp;nbsp; NFC_SET_MAX_CONN_DEFAULT();&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3VB3d_pXGT31ES1VNs92-69">
+          <mxGeometry x="0.5161" relative="1" as="geometry">
+            <mxPoint y="94" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-68" value="&lt;h4 style=&quot;line-height: var(--ds-md-line-height); margin: calc(var(--ds-md-zoom)*16px)0 calc(var(--ds-md-zoom)*12px)0; text-align: start; color: rgb(64, 64, 64);&quot;&gt;&lt;font color=&quot;#404040&quot;&gt;nfc_main.cc&lt;/font&gt;&lt;br&gt;&lt;/h4&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2440" y="40" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-70" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2190" y="1180" as="sourcePoint" />
+            <mxPoint x="2520" y="1180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-71" value="NFC_Init(p_hal_entry_tbl)&lt;div&gt;同NFC_Init(halFuncEntries）&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3VB3d_pXGT31ES1VNs92-70">
+          <mxGeometry x="0.0085" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-75" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1250" y="1300" as="sourcePoint" />
+            <mxPoint x="2200" y="1300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-76" value="NFA_Enable(nfaDeviceManagementCallback, nfaConnectionCallback)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3VB3d_pXGT31ES1VNs92-75">
+          <mxGeometry x="0.0024" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-77" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2210" y="1620" as="sourcePoint" />
+            <mxPoint x="1260" y="1620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-78" value="NFA_STATUS_OK" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3VB3d_pXGT31ES1VNs92-77">
+          <mxGeometry x="-0.0068" y="1" relative="1" as="geometry">
+            <mxPoint y="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-82" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1250" y="1800" as="sourcePoint" />
+            <mxPoint x="680" y="1800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-83" value="JNI_TRUE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3VB3d_pXGT31ES1VNs92-82">
+          <mxGeometry x="0.0357" y="2" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-91" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2200" y="1450" as="sourcePoint" />
+            <mxPoint x="2520" y="1450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-92" value="NFC_Enable（）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3VB3d_pXGT31ES1VNs92-91">
+          <mxGeometry x="-0.0023" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-93" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2520" y="1510" as="sourcePoint" />
+            <mxPoint x="2950" y="1510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-94" value="open(nfc_main_hal_cback, nfc_main_hal_data_cback)&lt;div&gt;初始化设备&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3VB3d_pXGT31ES1VNs92-93">
+          <mxGeometry x="0.0131" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.688;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3VB3d_pXGT31ES1VNs92-95">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2950" y="1907.2727272727273" as="targetPoint" />
+            <mxPoint x="2940" y="690" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-95" value="&lt;h4 style=&quot;line-height: var(--ds-md-line-height); margin: calc(var(--ds-md-zoom)*16px)0 calc(var(--ds-md-zoom)*12px)0; text-align: start; color: rgb(64, 64, 64);&quot;&gt;&lt;font color=&quot;#404040&quot;&gt;hal&lt;/font&gt;&lt;br&gt;&lt;/h4&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2850" y="40" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-97" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2950" y="1540" as="sourcePoint" />
+            <mxPoint x="2520" y="1540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-99" value="完成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3VB3d_pXGT31ES1VNs92-97">
+          <mxGeometry x="0.0233" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-100" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2200" y="1480" as="sourcePoint" />
+            <mxPoint x="2200" y="1700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-101" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2519.38" y="1560" as="sourcePoint" />
+            <mxPoint x="2519.38" y="1780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-102" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2520" y="1600" as="sourcePoint" />
+            <mxPoint x="2200" y="1600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3VB3d_pXGT31ES1VNs92-103" value="NFC_STATUS_OK" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3VB3d_pXGT31ES1VNs92-102">
+          <mxGeometry x="0.0281" y="-2" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
